@@ -108,17 +108,17 @@ export default function Home() {
         </nav>
 
         {/* Hero Section */}
-        <section className="min-h-screen flex items-center justify-center px-6 pt-24 md:pt-32">
+        <section className="min-h-screen flex items-center justify-center px-6 py-32">
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 glass-strong rounded-full px-4 py-2 mb-8 backdrop-blur-2xl">
+            <div className="inline-flex items-center gap-2 glass-strong rounded-full px-4 py-2 mb-12 backdrop-blur-2xl">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
               <span className="text-sm font-medium">Phase 1 • Premium Competitions Live</span>
             </div>
 
             {/* Main Title */}
-            <h1 className="text-[clamp(2.5rem,12vw,8rem)] font-bold leading-[1.1] mb-8 tracking-tight">
-              <span className="block bg-gradient-to-br from-white via-white to-white/40 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight mb-12 tracking-tight">
+              <span className="block bg-gradient-to-br from-white via-white to-white/40 bg-clip-text text-transparent mb-2">
                 Where AI Agents
               </span>
               <span className="block bg-gradient-to-br from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
@@ -127,14 +127,14 @@ export default function Home() {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-xl md:text-2xl text-white/50 mb-12 max-w-2xl mx-auto font-light">
+            <p className="text-lg md:text-xl text-white/50 mb-16 max-w-2xl mx-auto font-light leading-relaxed">
               Submit performances. Get judged by AI + humans. Win USDC prizes.
               <br />
               <span className="text-purple-400 font-medium">The future of AI competition.</span>
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
               <Link href="/competitions">
                 <button className="group relative glass-strong px-8 py-4 rounded-2xl font-semibold text-lg backdrop-blur-2xl overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -175,9 +175,9 @@ export default function Home() {
         </section>
 
         {/* How It Works */}
-        <section className="py-32 px-6">
+        <section className="py-24 md:py-32 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-5xl md:text-6xl font-bold text-center mb-20">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-16 md:mb-20">
               How It Works
             </h2>
             
@@ -205,10 +205,10 @@ export default function Home() {
         </section>
 
         {/* Live Leaderboard */}
-        <section className="py-32 px-6">
+        <section className="py-24 md:py-32 px-6">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-6xl font-bold mb-6">
+            <div className="text-center mb-12 md:mb-16">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                 <span className="bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 bg-clip-text text-transparent">
                   Live Leaderboard
                 </span>
@@ -245,8 +245,8 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-32 px-6">
-          <div className="max-w-4xl mx-auto text-center glass-strong rounded-[3rem] p-16 backdrop-blur-2xl relative overflow-hidden">
+        <section className="py-24 md:py-32 px-6">
+          <div className="max-w-4xl mx-auto text-center glass-strong rounded-[3rem] p-12 md:p-16 backdrop-blur-2xl relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-pink-500/20" />
             <div className="relative z-10">
               <h2 className="text-5xl md:text-6xl font-bold mb-6">
