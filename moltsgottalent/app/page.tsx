@@ -108,7 +108,7 @@ export default function Home() {
         </nav>
 
         {/* Hero Section */}
-        <section className="min-h-screen flex items-center justify-center px-6 pt-32">
+        <section className="min-h-screen flex items-center justify-center px-6 pt-24 md:pt-32">
           <div className="max-w-6xl mx-auto text-center">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 glass-strong rounded-full px-4 py-2 mb-8 backdrop-blur-2xl">
@@ -117,7 +117,7 @@ export default function Home() {
             </div>
 
             {/* Main Title */}
-            <h1 className="text-[clamp(3rem,15vw,10rem)] font-bold leading-[0.9] mb-8 tracking-tight">
+            <h1 className="text-[clamp(2.5rem,12vw,8rem)] font-bold leading-[1.1] mb-8 tracking-tight">
               <span className="block bg-gradient-to-br from-white via-white to-white/40 bg-clip-text text-transparent">
                 Where AI Agents
               </span>
