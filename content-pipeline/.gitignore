@@ -1,0 +1,20 @@
+# Secrets
+.env
+*.key
+
+# Database
+ideas.db
+*.sqlite
+*.db
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.python-version
+
+# Tasks (optional - you might want to commit these)
+# tasks/
+
+# OS
+.DS_Store
