@@ -4,7 +4,7 @@
 
 **Project:** agent-payment-engine  
 **GitHub:** https://github.com/zooshots7/agent-payment-engine  
-**Status:** Phase 2 Core Features - 2/4 Complete 🚧  
+**Status:** Phase 2 Core Features - 3/4 Complete 🚧 (75%!)  
 **Last Updated:** 2026-02-25
 
 ### Completed ✅
@@ -44,11 +44,21 @@
   - 32 tests passing
   - Comprehensive demo with comparisons
 
+- ✅ Fraud Detection ML System - COMPLETE (2026-02-25)
+  - 5 ML-based detection models (velocity/amount/pattern/geo/behavioral)
+  - Real-time transaction analysis with risk scoring
+  - User profiling and historical tracking
+  - Geo-location anomaly detection (impossible travel)
+  - Pattern recognition (sequential, bursts, address switching)
+  - Configurable actions and thresholds
+  - 33 tests passing
+  - Demo with 6 real-world fraud scenarios
+
 ### Next Up 🎯
-- Fraud detection ML models
 - Dynamic pricing AI
-- Integration tests for yield optimizer with real protocols
+- Integration tests for all core features
 - Real DeFi protocol API integrations
+- Production-ready model training
 
 ---
 
