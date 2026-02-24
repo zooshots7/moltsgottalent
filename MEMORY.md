@@ -10,3 +10,13 @@
 - Big picture: connecting 3D printing → Shopify (custom product e-commerce)
 - Timezone: IST, runs on Mac Mini
 - Comms: Telegram
+
+## Active Projects
+
+### MoneyMQ + AI Agent Orchestration (Started: 2026-02-24)
+- **What:** Fork MoneyMQ (Solana x402 hackathon winner) and add AI agent orchestration layer
+- **Goal:** Transform payment config tool into autonomous payment intelligence platform
+- **Key Features:** Agent-to-agent payments, yield optimization, fraud detection, multi-agent swarms
+- **Plan:** Saved in `moneymq-ai-agent-plan.md`
+- **Status:** Planning phase
+- **Original Repo:** github.com/txtx/moneymq
